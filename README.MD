@@ -33,4 +33,4 @@ Have fun!
 
 03.09.23 Project started - gitHub repo and project structure setup.
 
-03.04.23 Stage 1 completed - creation of credit cards, user session to login to account, used @patch.object of
+03.04.23 Stage 1 completed - just add given numbers

@@ -3,6 +3,7 @@ README.md
 setup.cfg
 setup.py
 src/calculator/__init__.py
+src/calculator/calculator.py
 src/smart_calculator.egg-info/PKG-INFO
 src/smart_calculator.egg-info/SOURCES.txt
 src/smart_calculator.egg-info/dependency_links.txt

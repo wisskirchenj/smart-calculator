@@ -38,3 +38,5 @@ Have fun!
 04.04.23 Stage 2 completed - input loops now and handles different number inputs per line.
 
 04.04.23 Stage 3 completed - add help. Use `StringIO.splitlines()` in pytest.
+
+04.04.23 Stage 4 completed - calc formulas given with `+` and `-` operators. Simplify multiple operators.

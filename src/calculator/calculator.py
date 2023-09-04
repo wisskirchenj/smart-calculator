@@ -1,8 +1,12 @@
 class Calculator:
 
     def run(self):
-        a, b = [int(token) for token in input().split()]
-        print(a + b)
+        line = input()
+        while line != '/exit':
+            if line:
+                print(sum([int(token) for token in line.split()]))
+            line = input()
+        print('bye')
 
 
 if __name__ == '__main__':

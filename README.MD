@@ -33,4 +33,6 @@ Have fun!
 
 03.09.23 Project started - gitHub repo and project structure setup.
 
-03.04.23 Stage 1 completed - just add given numbers
+03.04.23 Stage 1 completed - just add given numbers.
+
+04.04.23 Stage 2 completed - input loops now and handles different number inputs per line.

@@ -36,3 +36,5 @@ Have fun!
 03.04.23 Stage 1 completed - just add given numbers.
 
 04.04.23 Stage 2 completed - input loops now and handles different number inputs per line.
+
+04.04.23 Stage 3 completed - add help. Use `StringIO.splitlines()` in pytest.

@@ -33,10 +33,12 @@ Have fun!
 
 03.09.23 Project started - gitHub repo and project structure setup.
 
-03.04.23 Stage 1 completed - just add given numbers.
+03.09.23 Stage 1 completed - just add given numbers.
 
-04.04.23 Stage 2 completed - input loops now and handles different number inputs per line.
+04.09.23 Stage 2 completed - input loops now and handles different number inputs per line.
 
-04.04.23 Stage 3 completed - add help. Use `StringIO.splitlines()` in pytest.
+04.09.23 Stage 3 completed - add help. Use `StringIO.splitlines()` in pytest.
 
-04.04.23 Stage 4 completed - calc formulas given with `+` and `-` operators. Simplify multiple operators.
+04.09.23 Stage 4 completed - calc formulas given with `+` and `-` operators. Simplify multiple operators.
+
+11.09.23 Stage 5 completed - add error handling for invalid expressions and unknown commands.

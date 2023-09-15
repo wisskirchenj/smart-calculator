@@ -42,3 +42,5 @@ Have fun!
 04.09.23 Stage 4 completed - calc formulas given with `+` and `-` operators. Simplify multiple operators.
 
 11.09.23 Stage 5 completed - add error handling for invalid expressions and unknown commands.
+
+15.09.23 Stage 6 completed - introduce variables, which are stored in a Calculator dictionary field.

@@ -11,10 +11,11 @@ class TestCalculator(unittest.TestCase):
     @patch('sys.stdout', new_callable=StringIO)
     def test_example1(self, mock_stdout: StringIO, mock_input: MagicMock):
         mock_input.side_effect = ['-2 + 4 - 5 + 6', '', '1 -- -1', '9 +++ 10 -- 8', '+7', '', '/help',
-                                  '14       ---   12', '/', '/go', '23+', '23 +', '23 12', 'a + b', '2 * 3', '/exit']
+                                  '14       ---   12', '/', '/go', '23+', '23 +', '23 12', 'a + b', '2 * 3',
+                                  'a2 = 2', 'b = 2', 'aaa=b', 'aaa -- b', 'b=1', 'b', 'b = AAA', '/exit']
         Calculator().run()
         lines = mock_stdout.getvalue().splitlines()
-        self.assertEqual(13, len(lines))
+        self.assertEqual(18, len(lines))
         self.assertEqual('3', lines[0])
         self.assertEqual('0', lines[1])
         self.assertEqual('27', lines[2])
@@ -26,5 +27,10 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual('Invalid expression', lines[8])
         self.assertEqual('Invalid expression', lines[9])
         self.assertEqual('Invalid expression', lines[10])
-        self.assertEqual('Invalid expression', lines[11])
+        self.assertEqual('Unknown variable', lines[11])
         self.assertEqual('Invalid expression', lines[12])
+        self.assertEqual('Invalid assignment', lines[13])
+        self.assertEqual('4', lines[14])
+        self.assertEqual('1', lines[15])
+        self.assertEqual('Unknown variable', lines[16])
+        self.assertEqual('Bye!', lines[17])

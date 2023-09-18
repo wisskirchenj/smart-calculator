@@ -27,7 +27,7 @@ Have fun!
 
 ## Project status
 
-[//]: # (Project was completed on 09.04.23)
+Project was completed on 18.09.23
 
 ## Progress
 
@@ -44,3 +44,6 @@ Have fun!
 11.09.23 Stage 5 completed - add error handling for invalid expressions and unknown commands.
 
 15.09.23 Stage 6 completed - introduce variables, which are stored in a Calculator dictionary field.
+
+18.09.23 Final Stage 7 completed - tokenize, parse an expression with 5 operators including precedence, convert it to
+postfix notation and evaluate it. Then calc the result using a stack. Use unittest.mock.patch to mock input() in pytest.
